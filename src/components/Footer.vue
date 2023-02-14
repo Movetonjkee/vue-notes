@@ -1,6 +1,6 @@
 <template>
 	<div class="container">
-		<p>Footer</p>
+		<p>Footer!</p>
 	</div>
 
 </template>

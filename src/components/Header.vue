@@ -1,6 +1,6 @@
 <template>
 	<div class="container">
-		<p>Header</p>
+		<p>Header!</p>
 	</div>
 
 </template>

@@ -2,6 +2,7 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="navbar-content">
+				<a href="#">logo</a>
 				<ul class="navbar-list">
 					<li class="navbar-item">
 						<a href="/about" class="navbar-link">

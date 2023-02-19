@@ -4,6 +4,8 @@
     <div class="wrapper-content">
       <div class="container">
         <h1>Hello world!</h1>
+
+		{{ test }}
       </div>
 
     </div>
@@ -13,6 +15,8 @@
 </template>
 
 <script>
+
+import { site } from "@/_config.js";
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
   export default {
@@ -22,9 +26,9 @@ import Footer from '@/components/Footer.vue';
     },
     data() {
 		return {
-      title: 'Template',
+			title: 'Template',
+			test: site.home,
 			links: [
-       
 				{
 					title: "Home",
 					alias: "home",

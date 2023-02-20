@@ -1,0 +1,1 @@
+<template>О нас страница</template>

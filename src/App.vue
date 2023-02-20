@@ -1,22 +1,18 @@
 <template>
   <div class="wrapper">
-    <Header :title="title" :links="links"/>
+    <Header />
     <div class="wrapper-content">
       <div class="container">
-        <h1>Hello world!</h1>
-
-		{{ test }}
+        <router-view/>
       </div>
 
     </div>
-    <Footer :links="links"/>
+    <Footer />
   </div>
 
 </template>
 
 <script>
-
-import { site } from "@/_config.js";
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
   export default {
@@ -24,29 +20,6 @@ import Footer from '@/components/Footer.vue';
     components: {
       Header, Footer
     },
-    data() {
-		return {
-			title: 'Template',
-			test: site.home,
-			links: [
-				{
-					title: "Home",
-					alias: "home",
-					url: '/'
-				},
-				{
-					title: "About",
-					alias: "about",
-					url: '/about'
-				},
-        {
-					title: "Vacancy",
-					alias: "vacancy",
-					url: '/vacancy'
-				},
-			]
-		}
-	},
     
   }
 </script>

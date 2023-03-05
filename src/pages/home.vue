@@ -4,8 +4,12 @@
       <Card
         :title="item.title"
         :name="`${item.lvl} lvl`"
-        :descr="item.descr"
-      />
+        :descr="item.descr">
+        <template v-slot:body>
+          {{ item.descr }}
+        </template>
+      </Card>
+
     </div>
 </template>
 

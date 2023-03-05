@@ -9,11 +9,11 @@
 						<router-link :to="link.url" class="navbar-link">
 							{{link.title}}
 
-	
+
 						</router-link>
 					</li>
 				</ul>
-			</div>	
+			</div>
 
 		</div>
 	</header>
@@ -24,7 +24,7 @@
 <script>
 import {app, links} from '@/_config';
 export default {
-	
+
 	data() {
 		return {
 			title: app.title,

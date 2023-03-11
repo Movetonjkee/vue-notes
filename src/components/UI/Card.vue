@@ -8,6 +8,8 @@
     <div class="card-body">
       <slot name="img"></slot>
       <slot name="body"></slot>
+
+      <router-link v-if="link" :to="link" class="link" style="display: block; margin-top: 10px;">See more</router-link>
     </div>
   </div>
 </template>
@@ -28,6 +30,9 @@ export default {
       type: String,
     },
     descr: {
+      type: String,
+    },
+    link: {
       type: String,
     }
   }

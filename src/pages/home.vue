@@ -5,7 +5,8 @@
         :title="item.title"
         :imgUrl="item.img"
         :name="`${item.lvl} lvl`"
-        :descr="item.descr">
+        :descr="item.descr"
+        :link="`/${item.alias}`">
         <template v-slot:body>
           {{ item.descr }}
         </template>

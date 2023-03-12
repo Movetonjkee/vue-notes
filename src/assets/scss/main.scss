@@ -90,13 +90,13 @@ section,
   flex-direction: column;
   min-height: 70vh;
   margin-top: 80px; // if header is fixed do mt: headerHeight
-  .container {
-    display: flex;
-    align-items: stretch;
-    gap: 20px;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
+  // .container {
+  //   display: flex;
+  //   align-items: stretch;
+  //   gap: 20px;
+  //   justify-content: flex-start;
+  //   flex-wrap: wrap;
+  // }
 }
 .card__wrapper {
 }
